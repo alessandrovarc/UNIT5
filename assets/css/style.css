@@ -3,78 +3,120 @@
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
 }
+
 header {
-    background-color:  rgb(19, 47, 80) ;
+    background-color: rgb(19, 47, 80);
     width: 100%;
-    
+
 }
 
 #logo-amazon {
-    margin:10px 20px;
+    margin: 10px 20px;
     max-width: 100px;
- 
+
 }
+
 body {
     background-color: rgb(206, 206, 206);
 }
 
 
 nav {
-    background-color: rgb(28, 80, 122) ;;
+    background-color: rgb(28, 80, 122);
+    
 
 }
+
 li {
     text-align: left;
     list-style: none;
     display: inline-block;
-    margin:10px;
-    color: white;   
+    margin: 10px;
+    color: white;
 }
+
 ul {
     padding-left: 20px;
-    margin:0;
+    margin: 0;
 }
+
 main {
     padding: 20px;
 
 }
+
 #titleOrangeBackground {
     color: white;
     background-color: rgb(255, 94, 0);
-    margin-bottom:20px;
+    margin-bottom: 20px;
     padding: 10px;
-   
+
 }
 
 #h5 {
-    margin:0;
+    margin: 0;
     text-align: center;
 }
+
 .green-img-container {
     width: 100%;
-   background-image: url(../img/bg-image.png);
-   background-size: contain;
-   text-align: center;
-   color: white;
-   background-repeat: repeat;
-   height: 10em;
-   h3,h4 {
-    margin:0;
-    padding:40px;
-   }
-   h4 {
-    padding-top:10px;
-   }
-   
+    background-image: url(../img/bg-image.png);
+    background-size: contain;
+    text-align: center;
+    color: white;
+    background-repeat: repeat;
+    height: 10em;
+
+    h3,
+    h4 {
+        margin: 0;
+        padding: 40px;
+    }
+
+    h4 {
+        padding-top: 10px;
+    }
+
 }
+
 .containerimmagini-white {
     background-color: white;
-    border-radius: 10px;
     padding: 10px;
     margin: 20px 0px;
 }
+
 .inline-img {
-    width: 20%;
-    display: inline-block;
+    width: 23%;
+    display: inline;
+    border-radius: 10px;
+    height: 16em;
+    object-fit: cover;
+    margin-inline:10px;
+
+}
+span {
+    color: rgb(0, 166, 255)
+}
+
+.full-img {
+    width: 100%;
+    margin-top: 20px;
+}
+.line-center {
+    text-align: center;
+    margin:0;
+}
+.back-top {
+    background-color: rgb(28, 80, 122);
+    margin:20px 0;
+    padding:10px;
+    color: white;
+    max-width: 100%;
+}
+footer {
+    background-color: rgb(19, 47, 80);text-align: center;
+    img {
+        width: 10%;
+    }
 
 }
