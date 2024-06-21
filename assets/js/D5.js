@@ -140,11 +140,18 @@ for (let i = 0; i < cars.length; i++) {
 const numericArray = [
   6, 90, 45, 75, 84, 98, 35, 74, 31, 2, 8, 23, 100, 32, 66, 313, 321, 105,
 ]
-let i = numericArray.length;
-while (i<=32) {
-  i++
-  console.log(i);
+let i = 0;
+while (i<numericArray.length) {
+  console.log('mostrami',numericArray[i]);
+  if (numericArray[i]===32) {
+    break;
+  }else {
+    
+    i++
+  }
 }
+
+
 
 
 
